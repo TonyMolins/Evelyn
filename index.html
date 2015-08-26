@@ -1,0 +1,46 @@
+        <!DOCTYPE html>
+        <html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <link rel="stylesheet" href="css/styles.css">
+            <title>Evenlynn's Baby Guessing Game</title>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+            <script src="firebase.js"></script>
+            <script src="script.js"></script>
+        </head>
+        <body>
+            <h1>Guess the Baby, If you win you get "Something"</h1>
+        <h2>Rules and Instructions</h2>
+        <p>Choose your name from the Drop Down Menu and then put in your guessing in the places below.
+            You may change your answers anytime before Sunday Aug 30 at which point the website will lock.
+            The closest guess (Not Price is Right style, so going over is fine) wins some prize that will be decided by
+            Staci's Father when he gets around to it.
+            So, yeah, Free "Something"!!!</p>
+            <div class="forms"></div>
+            <form>
+                   <input id="name" name="name" type="text" size="25" value="Your Name">
+                    Note: This is your name, not what you think the baby shoud be named.
+                    <input id="height" name="height" type="text" size="25" value="Height">
+                    <p>Note: Since measuring babies by length instead of height is weird (they aren't a
+                    piece of lumber) we are guessing the baby's height.</p>
+                    <input id="gender" name="gender" type="text" size="25" value="Gender">
+                    <p>Public Service Announcement: Despite Facebook having 58 Gender options, we will be sticking to 2.
+                    Note: "Wiener" will be interpreted as Male</p>
+                    <input id="weight" name="weight" type="text" size="25" value="Weight">
+                    <p>Note: Staci was 9lbs 11oz, that is a fat baby.
+                        Public Service Announcement: there are 16 ounces in a pound, so putting 7lbs 17oz will make you look silly.</p>
+                    <input id="hairColor" name= hairColor type="text" size="25" value="Hair Color">
+                    <p> Note: Matilda is not a color.</p>
+                    <input id="dateBorn" name="dateBorn" type="text" size="25" value="Date Born">
+                    <p>Note: Dinner and a movie is not a valid answer.</p>
+                    <input id="timeBorn" name="timeBorn" type="text" size="25" value="Time Born">
+                    <p>Note: Jurrasic Period is both an acceptable and witty answer.</p>
+                    <input id="eyeColor" name="eyeColor" type="text" size="25" value="Eye Color">
+                    <p>Note: If this is confusing at all, just put brown, over half of all people have bron eyes, so the ods are in your favor.</p>
+                    <input type="submit" value="Submit all answers">
+            </form>
+
+        </body>
+        </html>
