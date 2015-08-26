@@ -55,7 +55,7 @@
                     myFirebaseRef.push({
                             answers: {
                                 aName: name,
-                                gender: gender,
+                                birthPlace: gender,
                                 height: height,
                                 weight: weight,
                                 hairColor: hairColor,
