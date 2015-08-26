@@ -67,7 +67,7 @@
                         function (error, dummy) {
                             if (error) {
                                 $(".error").css({visibility: "visible"})
-                            } else window.location = "http://timtrousdale.github.io/Evelynn/success";
+                            } else window.location = "http://timtrousdale.github.io/Evelyn/success";
                         });
                 });
             });
