@@ -1,0 +1,51 @@
+
+    aside {
+        height: 200px;
+        width: 200px;
+        padding: 10px;
+    }
+    .aside {
+        border-radius: 25px;
+        float: right;
+        margin-right: 35%;
+        height: 200px;
+        width: 220px;
+        background: linear-gradient(to right, #92c6c6, #c8ffff);
+    }
+
+    .nav {
+        background: linear-gradient(to right, #ffd8ff, #ffeffc);
+    }
+    input, form {
+        border-color: lightblue;
+    }
+    .rules {
+        background-image: url(images/background.jpg);
+        color: white;
+
+    }
+    .box {
+        display: block;
+        margin: 30px auto 30px auto;
+    }
+    #name {
+        margin-top: 0px;
+    }
+    .error {
+        visibility: hidden;
+        color: red;
+    }
+
+    .name, .height, .gender, .weight, .hairColor, .dateBorn, .timeBorn, .eyeColor {
+        display: none;
+    }
+    .forms {
+        background-image: url(images/StaciGIFsepialight.gif);
+        padding-top: 34px;
+    }
+    .submit {
+        background-color: pink;
+    }
+    #weight {
+        margin-top: 60px;
+    }
